@@ -211,7 +211,24 @@ main {
     opacity: 0.8;
 }
 
-.phone-link i {
+.resume-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.resume-link:hover {
+    color: var(--accent-color);
+}
+
+.phone-link i,
+.resume-link i {
     font-size: 0.9rem;
 }
 
@@ -249,6 +266,8 @@ main {
 }
 
 .cta-button {
+    display: inline-block;
+    text-decoration: none;
     padding: 1.2rem 3rem;
     font-size: 1.1rem;
     font-weight: 600;
